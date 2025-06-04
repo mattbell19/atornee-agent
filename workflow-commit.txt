@@ -1,0 +1,6 @@
+[Cursor] feat: Add GitHub Actions workflow for automatic Heroku deployment
+
+- Automated CI/CD pipeline from GitHub to Heroku
+- Runs tests before deployment to ensure code quality  
+- Deploys to ai-legal-langgraph-backend on push to main branch
+- Provides clear deployment status and service URL feedback 
