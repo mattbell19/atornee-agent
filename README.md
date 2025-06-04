@@ -264,4 +264,4 @@ For issues and support:
 
 **🏛️ Part of the AI Legal Assistant Platform**  
 **🚀 Deployed on Heroku**  
-**🤖 Powered by LangGraph & OpenAI** 
+**🤖 Powered by LangGraph & OpenAI** # Test deployment pipeline
