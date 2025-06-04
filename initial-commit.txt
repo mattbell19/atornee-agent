@@ -1,0 +1,8 @@
+[Cursor] feat: Initial LangGraph AI Legal Assistant Backend
+
+- FastAPI backend service for AI Legal Assistant platform
+- LangGraph workflow orchestration for legal agent workflows  
+- Document generation with AI-powered legal documents
+- Conversation management with PostgreSQL and Redis integration
+- Comprehensive API documentation and deployment guides
+- Security: Environment variables properly protected with .gitignore 

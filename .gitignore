@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment variables (contains secrets)
+.env
+.env.*
+!env.example
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp

@@ -1,0 +1,12 @@
+[Cursor] HOTFIX: Handle simple greetings gracefully
+
+🔹 NEW FUNCTIONALITY
+- Detects greetings like "hi", "hello", "hey" etc. as a new `greeting` intent
+- Responds with a polite greeting instead of unrelated legal advice
+
+🔹 CHANGES
+- Updated `analyze_intent` to recognise greeting keywords and set `current_state` to `greeting`
+- Added `greeting` branch to `generate_response` returning "Hello! How can I assist you with your legal needs today?"
+
+🔹 RESULT
+Users who simply greet the assistant no longer receive hallucinated advice about setting up a limited company. They now receive a friendly prompt asking what they need. 

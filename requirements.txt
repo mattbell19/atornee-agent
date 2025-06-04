@@ -1,0 +1,44 @@
+# LangGraph and core workflow dependencies
+langgraph==0.2.39
+langchain==0.3.7
+langchain-openai==0.2.5
+langchain-core==0.3.15
+
+# FastAPI and web framework
+fastapi==0.115.4
+uvicorn[standard]==0.32.0
+python-multipart==0.0.12
+pydantic==2.9.2
+pydantic-settings==2.6.1
+
+# Database and storage
+psycopg2-binary==2.9.9
+asyncpg==0.30.0
+sqlalchemy==2.0.35
+redis==5.2.0
+
+# Document processing and generation
+pypdf2==3.0.1
+python-docx==1.1.2
+reportlab==4.2.5
+jinja2==3.1.4
+
+# Authentication and security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# HTTP and API clients
+httpx==0.27.2
+requests==2.32.3
+
+# Utilities and helpers
+python-dotenv==1.0.1
+typing-extensions==4.12.2
+
+# Development and debugging
+pytest==8.3.3
+pytest-asyncio==0.24.0
+
+# Legal document templates and processing
+markdown==3.7
+bleach==6.2.0 
